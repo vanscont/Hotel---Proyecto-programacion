@@ -13,19 +13,65 @@
 <body>
 
     <header>
-        <ul><ul>
+        <div>
+        <ul>
             <li><a href="../index.html">Home</a></li>
-            <li><a href="./Nosotros.html"> Nosotros</a></li>
             <li><a href="./Habitaciones.html"> Habitaciones</a></li>
             <li><a href="./Contacto.html"> Contacto</a></li>
             <li><a href="./Galeria.html"> Galeria</a> </li>
-        </ul></ul>
+        </ul>
+        </div>
     </header>
 
 <h1>Contacto</h1>
 
 <h2>Visitanos</h2>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6010.397424035297!2d-71.3819179737624!3d-41.13018786715428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7a79716dd1db%3A0xc9fb168c8539211f!2sParque%20del%20Cerro%20Otto%2C%20San%20Carlos%20de%20Bariloche%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses-419!2sar!4v1667173188997!5m2!1ses-419!2sar" width="1400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<br>
+<br>
+<br>
+
+<form action="">
+    <fieldset>
+        <legend>Formulario de contacto</legend>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" placeholder="Juan">
+                </div>  
+                <br>
+                <div>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" placeholder="Perez" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Escribe tu mail *</label>
+                    <input type="email" name="email" required>
+                </div> 
+                <br>
+                <div>
+                    <label for="nacimiento">Fecha de nacimiento</label>
+                    <input type="date">
+                </div>
+                <br>
+                <div>
+                    <label for="pais">Selecciona tu Nacionalidad</label>
+                    <select name="pais" id="">
+                        <option value="arg">ARGENTINA</option>
+                        <option value="uru">URUGUAY</option>
+                        <option value="ch">CHILE</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="comentario">Informanos cuantas personas son, las edades, fecha de entrada y de salida.</label><br>
+                    <textarea name="comentario" id="" cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
+                </div>
+                <div>Acepta términos y condiciones
+                    <input type="checkbox" name="acepta" value="1">
+                </div>
+<br>
 
 <footer>
     <address>Bariloche, Argentina &copy; 2022</address>
